@@ -1,0 +1,97 @@
+{
+    "STARTED": {
+        "PRODUCT_LIST": {
+            "type": "postback",
+            "title": "Sản phẩm nổi bật",
+            "payload": "PRODUCT_LIST"
+        }
+    },
+    "PRODUCT_LIST": {
+        "SET_LIST": {
+            "type": "postback",
+            "title": "Set",
+            "payload": "SET_LIST"
+        },
+        "DRESS_LIST": {
+            "type": "postback",
+            "title": "Đầm",
+            "payload": "DRESS_LIST"
+        },
+        "SKRIT_LIST": {
+            "type": "postback",
+            "title": "Váy",
+            "payload": "SKIRT_LIST"
+        },
+        "JUMP_LIST": {
+            "type": "postback",
+            "title": "Jumpsuit",
+            "payload": "JUMP_LIST"
+        },
+        "BEST_SELLER": {
+            "type": "postback",
+            "title": "Sản phẩm bán chạy",
+            "payload": "BEST_SELLER"
+        }
+    },
+    "PRODUCT": {
+        "DETAIL": {
+            "type": "postback",
+            "title": "Chi Tiết",
+            "payload": "PRODUCT_DETAIL"
+        },
+        "SHOW_IMAGE": {
+            "type": "postback",
+            "title": "Hiển thị ảnh",
+            "payload": "SHOW_IMAGE"
+        }
+    },
+    "COMMON": {
+        "BACK_TO_LIST": {
+            "type": "postback",
+            "title": "Quay trở lại",
+            "payload": "BACK_TO_LIST"
+        }
+    },
+    "QUICK_REPLY": {
+        "PRODUCTS": {
+            "content_type": "text",
+            "title": "Danh mục sản phẩm",
+            "payload": "PRODUCTS"
+        },
+        "FEARTURED_LIST": {
+            "content_type": "text",
+            "title": "Sản phẩm nổi bật",
+            "payload": "FEARTURED_LIST"
+        },
+        "BEST_SELLER": {
+            "content_type": "text",
+            "title": "Sản phẩm bán chạy",
+            "payload": "BEST_SELLER"
+        },
+        "PRODUCT_NEW": {
+            "content_type": "text",
+            "title": "Hàng mới về",
+            "payload": "PRODUCT_NEW"
+        },
+        "GUIDE_TO_USE": {
+            "content_type": "text",
+            "title": "Hướng dẫn sử dụng",
+            "payload": "GUIDE_TO_USE"
+        },
+        "POLICY": {
+            "content_type": "text",
+            "title": "Chính sách",
+            "payload": "POLICY"
+        },
+        "INFOMATION": {
+            "content_type": "text",
+            "title": "Thông tin",
+            "payload": "INFOMATION"
+        },
+        "PAYMENT_METHOD": {
+            "content_type": "text",
+            "title": "Thanh toán",
+            "payload": "PAYMENT_METHOD"
+        }
+    }
+}

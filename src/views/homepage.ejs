@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri Nguyen</title>
+</head>
+
+<body>
+    <h1>Hello n</h1>
+    <form action="/setup-profile" method="POST">
+        <button type="" submit>Setup Profile</button>
+    </form>
+    <br />
+
+    <form action="/setup-persistent-menu" method="POST">
+        <button type="" submit>Setup Persistent Menu</button>
+    </form>
+
+    <form action="/list-product" method="GET">
+        <button type="" submit>Test List Product</button>
+    </form>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "110952234978460");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+    <div>
+
+
+
+
+        <iframe
+            src="https://bfxs-003.sandbox.us01.dx.commercecloud.salesforce.com/s/MMTUK/gb/p/transend-e-plus/EC4900.html?iframe=true"
+            width="600" height="800" frameborder="0"></iframe>
+
+
+
+        <!-- 
+
+        <iframe
+            src="https://bfxs-003.sandbox.us01.dx.commercecloud.salesforce.com/s/MMTUK/gb/p/transend-e-plus/EC4900.html?iframe=true"
+            width="600" height="800" frameborder="0"></iframe>
+
+
+
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+        </div>
+
+        <iframe
+            src="https://bfxs-003.sandbox.us01.dx.commercecloud.salesforce.com/s/MMTUK/gb/p/transend-e-plus/EC4900.html?iframe=true"
+            width="2560" height="1440" frameborder="0"></iframe>
+
+
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+        </div>
+
+        <iframe
+            src="https://bfxs-003.sandbox.us01.dx.commercecloud.salesforce.com/s/MMTUK/gb/p/transend-e-plus/EC4900.html?iframe=true"
+            width="820" height="1180" frameborder="0"></iframe>
+    </div> -->
+
+        <!-- Your SDK code -->
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v14.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+</body>
+
+</html>
